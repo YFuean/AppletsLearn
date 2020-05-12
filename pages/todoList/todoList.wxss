@@ -1,0 +1,10 @@
+/* pages/todoList/todoList.wxss */
+.col{
+  margin: auto;
+  width: 49%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}

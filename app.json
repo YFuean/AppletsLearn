@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/todoList/todoList",
+    "pages/compass/compass"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#000000",
+    "selectedColor": "#777777",
+    "backgroundColor": "#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"assets/home.png",
+        "selectedIconPath":"assets/home_active.png"
+      },
+      {
+        "pagePath":"pages/todoList/todoList",
+        "text":"todoList",
+        "iconPath":"assets/todolist.png",
+        "selectedIconPath":"assets/todolist_active.png"
+      },
+      {
+        "pagePath":"pages/compass/compass",
+        "text":"指南针",
+        "iconPath":"assets/logs.png",
+        "selectedIconPath":"assets/logs_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
