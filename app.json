@@ -2,18 +2,19 @@
   "pages":[
     "pages/index/index",
     "pages/todoList/todoList",
-    "pages/compass/compass"
+    "pages/compass/compass",
+    "pages/food/food"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#f1d7bb",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
     "color": "#000000",
-    "selectedColor": "#777777",
-    "backgroundColor": "#ffffff",
+    "selectedColor": "#65858d",
+    "backgroundColor": "#bcc7bf",
     "list":[
       {
         "pagePath":"pages/index/index",
@@ -32,6 +33,12 @@
         "text":"指南针",
         "iconPath":"assets/logs.png",
         "selectedIconPath":"assets/logs_active.png"
+      },
+      {
+        "pagePath":"pages/food/food",
+        "text":"甜品",
+        "iconPath":"assets/cake.png",
+        "selectedIconPath":"assets/cake_active.png"
       }
     ]
   },

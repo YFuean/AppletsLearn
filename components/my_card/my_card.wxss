@@ -1,0 +1,18 @@
+.myCard{
+  background-color: #f9c6cb;
+  border-radius: 50rpx;
+  margin-bottom: 50rpx
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.myImg{
+  width: 0rpx;
+  border-radius: 50rpx;
+}
+.subTitle{
+  font-size: 14rpx;
+  color: #777777;
+}

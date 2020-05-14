@@ -1,0 +1,13 @@
+<!--pages/food/food.wxml-->
+<view class="container">
+    <my-card  wx:for="{{cake}}" wx:for-item="item" wx:key="index">
+      <image src="{{item.img}}"></image>
+      <view>{{item.name}}</view>
+      <view>￥{{item.price}}</view>
+      <view>❤{{item.flower}}</view>
+      <my-btn bindmyevent="onMyEvent">
+        <image src="../../assets/cake.png"></image>
+        <view>购买</view>
+      </my-btn>
+    </my-card>
+</view>

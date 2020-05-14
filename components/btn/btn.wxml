@@ -1,0 +1,4 @@
+<button class="btn1" bindtap="onTap">
+    <image :src="innerImg" class="btnImg"></image>
+    <slot>{{innerText}}</slot>
+ </button>

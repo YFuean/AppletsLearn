@@ -1,0 +1,3 @@
+/* pages/food/food.wxss */
+@import "../../app.wxss";
+@import "../../components/my_card/my_card.wxss"

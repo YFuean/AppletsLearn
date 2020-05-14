@@ -1,0 +1,8 @@
+<view class="myCard">
+  <image :src="innerImg" class="myImg"></image>
+  <slot class="title">{{innerName}}</slot>
+  <view class="row">
+    <view><slot class="subTitle">{{price}}</slot></view>
+    <view><slot class="subTitle">{{flower}}</slot></view>
+  </view>
+</view>
