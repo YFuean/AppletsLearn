@@ -1,0 +1,9 @@
+/* pages/detail/detail.wxss */
+.card{
+  background-color: #f9c6cb;
+  margin: auto;
+  height: 450rpx;
+  width: 500rpx;
+  border-radius: 30rpx;
+  text-align: center;
+}

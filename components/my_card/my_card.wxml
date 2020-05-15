@@ -1,8 +1,11 @@
-<view class="myCard">
-  <image :src="innerImg" class="myImg"></image>
-  <slot class="title">{{innerName}}</slot>
+<view wx:for="{{list}}" wx:for-item="item" class="myCard">
+  <image src="{{item.img}}" class="myImg"></image>
+  <text class="title">{{item.name}}</text>
   <view class="row">
-    <view><slot class="subTitle">{{price}}</slot></view>
-    <view><slot class="subTitle">{{flower}}</slot></view>
+    <view><text class="subTitle">￥{{item.price}}</text></view>
+    <view><text class="subTitle">❤{{item.flower}}</text></view>
   </view>
+  <button class="btn1" bindtap="onTap" data-item="{{item}}">
+    详情
+  </button>
 </view>

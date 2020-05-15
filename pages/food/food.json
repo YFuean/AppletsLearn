@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "my-btn":"../../components/btn/btn",
     "my-card":"../../components/my_card/my_card"
   }
 }
