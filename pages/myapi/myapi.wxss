@@ -1,0 +1,16 @@
+.myCard{
+  background-color: #f1dbc1;
+  border-radius: 10rpx;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+}
+.myImg{
+  width: 100%;
+  border-radius: 50rpx;
+}
+.subTitle{
+  font-size: 28rpx;
+  color: #777777;
+}

@@ -19,5 +19,10 @@
         <text class="bin-text">日志</text>
       </view>
     </view>
+    <view class="row">
+      <view class="col" bindtap="bindEnter" data-item="myapi">
+        <text class="bin-text">myapi</text>
+      </view>
+    </view>
   </view>
 </view>

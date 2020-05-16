@@ -1,0 +1,11 @@
+<!--pages/myapi/myapi.wxml-->
+<view>
+  <view wx:for="{{newslist}}" wx:for-item="item" class="myCard">
+    <text>{{item.title}}</text>
+    <text class="subTitle">{{item.ctime}}</text>
+      <view wx:if="{{item.picUrl.length>0}}">
+        <image src="{{item.picUrl}}" class="myImg"></image>
+      </view>
+    <text>{{item.description}}</text>
+  </view>
+</view>
