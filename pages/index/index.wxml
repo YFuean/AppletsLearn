@@ -23,6 +23,12 @@
       <view class="col" bindtap="bindEnter" data-item="myapi">
         <text class="bin-text">myapi</text>
       </view>
+      <view class="col" bindtap="bindEnter" data-item="kfc">
+        <text class="bin-text">KFC</text>
+      </view>
+      <view class="col" bindtap="bindEnter" data-item="">
+        <text class="bin-text">...</text>
+      </view>
     </view>
   </view>
 </view>

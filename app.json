@@ -6,7 +6,8 @@
     "pages/compass/compass",
     "pages/food/food",
     "pages/detail/detail",
-    "pages/myapi/myapi"
+    "pages/myapi/myapi",
+    "pages/kfc/kfc"
   ],
   "window":{
     "backgroundTextStyle":"light",
