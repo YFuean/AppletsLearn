@@ -7,7 +7,9 @@
     "pages/food/food",
     "pages/detail/detail",
     "pages/myapi/myapi",
-    "pages/kfc/kfc"
+    "pages/kfc/kfc",
+    "pages/case/case",
+    "pages/calculator/calculator"
   ],
   "window":{
     "backgroundTextStyle":"light",

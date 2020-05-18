@@ -26,8 +26,13 @@
       <view class="col" bindtap="bindEnter" data-item="kfc">
         <text class="bin-text">KFC</text>
       </view>
-      <view class="col" bindtap="bindEnter" data-item="">
-        <text class="bin-text">...</text>
+      <view class="col" bindtap="bindEnter" data-item="case">
+        <text class="bin-text">案例学习</text>
+      </view>
+    </view>
+    <view class="row">
+      <view class="col" bindtap="bindEnter" data-item="calculator">
+        <text class="bin-text">计算器</text>
       </view>
     </view>
   </view>

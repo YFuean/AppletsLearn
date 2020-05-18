@@ -1,0 +1,20 @@
+.contain{
+  width: 95%;
+  margin: auto;
+}
+.title{
+  font-weight: 600;
+  font-size: large;
+}
+view{
+  margin: 50rpx;
+}
+input{
+  width: 600rpx;
+  margin-top: 20rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+button{
+  margin: 50rpx;
+  letter-spacing: 18rpx;
+}
