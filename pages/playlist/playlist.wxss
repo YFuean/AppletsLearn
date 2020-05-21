@@ -1,0 +1,17 @@
+page{
+  background: #17181a;
+}
+.font-white{
+  color: #a8a9a9;
+}
+.font-30{
+  font-size: 30rpx;
+}
+.font-24{
+  font-size: 24rpx;
+}
+.content{
+  margin: auto;
+  width: 96%;
+  background:#232623;
+}

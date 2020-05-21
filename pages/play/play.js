@@ -1,11 +1,25 @@
-// pages/case/case.js
+// pages/play/play.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    result:''
+    playlist:[
+      {
+        id:1,
+        name:'一纸情书(Live精华版)',
+        zhuanji:'无线歌谣季 第10期',
+        singer:'毛不易、岳云鹏',
+        src:'https://www.kugou.com/song/#hash=9EC26B6B4DE6E8A67401BB14BD55D08B&album_id=8645351',
+        cover:'../../assets/mymusic/timg.jpg',
+        avatar:'../../assets/mymusic/mu_avatar.png'
+      },
+    ],
+    state:'paused',
+    playIndex:0,
+    play:{},
+    audioCtx:null
   },
 
   /**
@@ -14,31 +28,14 @@ Page({
   onLoad: function (options) {
 
   },
-  compare: function(e){
-    var str = "两数相等"
-    if(this.num1 > this.num2){
-      str = "第一个数大"
-    }else if(this.num1 < this.num2){
-      str = "第二个数大"
-    }
-    console.log(str)
-    this.setData({
-      result :str
-    })
+  onReady:function(){
+    this.audioCtx = wx.createInnerAudioContext()
+    this.setMusic(0)
   },
-  num1change: function(e){
-    this.num1 = Number(e.detail.value)
-  },
-  num2change: function(e){
-    this.num2 = Number(e.detail.value)
-  },
-  change3: function(e){
-    var data ={}
-    data[e.target.dataset.id] = Number(e.detail.value)
-    this.setData(data)
-  },
-  submit: function(e){
-    console.log(e.detail.value)
+  setMusic:function(index){},
+  play:function(){
+    this.audioCtx.play()
+    this.setData({state:'running'})
   },
 
   /**

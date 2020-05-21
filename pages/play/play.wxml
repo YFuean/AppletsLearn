@@ -1,0 +1,42 @@
+<!--pages/play/play.wxml-->
+<view class="content">
+  <view class="top">
+    <view class="width-100">
+      <text class="font-white font-30">一纸情书(Live精华版)</text>
+    </view>
+    <view class="width-100"> 
+      <text class="font-white font-30">无线歌谣季 第10期</text>
+    </view>
+  </view>
+  <view class="play_img">
+    <image src="../../assets/mymusic/timg.jpg" class="play_image"></image>
+  </view>
+  <view class="slider_box font-30">
+    <slider activeColor="#d33a31" block-size="12" backgroundColor="#dadada" value="{{play.percent}}"/>
+  </view>
+  <view class="play_list">
+    <view class="avatar">
+      <image class="mu_avatar" src="../../assets/mymusic/ava1.png"></image>
+    </view>
+    <view class="ml">
+     <view>
+       <text class="font-white font-24">一纸情书(Live精华版)</text>
+     </view>
+     <view>
+       <text class="font-white font-24">毛不易、岳云鹏</text>
+     </view>
+    </view>
+    <view class="icon_box">
+      <view class="icon_item">
+        <text class="iconfont icon-liebiao icon-font-color"></text>
+      </view>
+      <view class="icon_item">
+        <text wx:if="{{state=='paused'}}" bindtap="play" class="iconfont icon-bofang1 icon-font-color"></text>
+        <text wx:else bindtap="pause" class="iconfont icon-bofang icon-font-color"></text>
+      </view>
+      <view class="icon_item">
+        <text class="iconfont icon-play-next icon-font-color"></text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,11 +1,11 @@
-// pages/case/case.js
+// pages/playlist/playlist.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    result:''
+
   },
 
   /**
@@ -13,32 +13,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-  compare: function(e){
-    var str = "两数相等"
-    if(this.num1 > this.num2){
-      str = "第一个数大"
-    }else if(this.num1 < this.num2){
-      str = "第二个数大"
-    }
-    console.log(str)
-    this.setData({
-      result :str
-    })
-  },
-  num1change: function(e){
-    this.num1 = Number(e.detail.value)
-  },
-  num2change: function(e){
-    this.num2 = Number(e.detail.value)
-  },
-  change3: function(e){
-    var data ={}
-    data[e.target.dataset.id] = Number(e.detail.value)
-    this.setData(data)
-  },
-  submit: function(e){
-    console.log(e.detail.value)
   },
 
   /**

@@ -1,0 +1,43 @@
+<view class="contain">
+  <view class="img-view">
+    <view class='pageBox pageTwo'>
+      <swiper class='swiperClass' autoplay indicator-color="#a39f99" indicator-active-color="#f49641" indicator-dots  interval="2000" duration="1000" previous-margin="60px" next-margin="60px" circular  bindchange="bindchange" style='height: {{swiperHeight}}px'>
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+          <swiper-item>
+           <image src="{{item}}" class="slide-image {{swiperIdx == index ? 'active' : 'quiet'}}" mode='aspectFill'>
+           </image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <text class="font-white">热门音乐</text>
+  <view class="row">
+      <view class="col col-2">
+        <image src="../../assets/mymusic/ml1.png" class="my_img"></image>
+        <text class="font-24 font-white">夏天到了，春天的遗憾该通通放下了</text>
+      </view>
+      <view class="col col-2">
+        <image src="../../assets/mymusic/ml2.png" class="my_img"></image>
+        <text class="font-24 font-white">今天从《一荤一素》听起|私人雷达</text>
+      </view>
+  </view>
+  <view class="row">
+      <view class="col col-2">
+        <image src="../../assets/mymusic/ml3.png" class="my_img"></image>
+        <text class="font-24 font-white">一路向北（民谣）</text>
+      </view>
+      <view class="col col-2">
+        <image src="../../assets/mymusic/ml4.png" class="my_img"></image>
+        <text class="font-24 font-white">何以解忧，唯有民谣</text>
+      </view>
+  </view>
+  <view class="row">
+      <view class="col col-3" wx:for="{{bar1_list}}" wx:for-item="item">
+        <view class="col-li-30">
+          <view><text class="{{item.icon_class}}"></text></view>
+          <view><text class="font-24 font-white">{{item.text}}</text></view>
+        </view>
+      </view>
+  </view>
+</view>

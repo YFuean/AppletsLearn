@@ -1,0 +1,26 @@
+<!--pages/playlist/playlist.wxml-->
+<view class="play_list" wx:for="{{playlist}}"  wx:for-item="item" >
+    <view class="avatar">
+      <image class="mu_avatar" src="{{item.avatar}}"></image>
+    </view>
+    <view class="ml">
+     <view>
+       <text class="font-white font-24">{{item.name}}</text>
+     </view>
+     <view>
+       <text class="font-white font-24">{{item.singer}}</text>
+     </view>
+    </view>
+    <view class="icon_box">
+      <view class="icon_item">
+        <text class="iconfont icon-liebiao icon-font-color"></text>
+      </view>
+      <view class="icon_item">
+        <text wx:if="{{state=='paused'}}" bindtap="play" data-item="{{item.src}}" class="iconfont icon-bofang1 icon-font-color"></text>
+        <text wx:else bindtap="pause" class="iconfont icon-bofang icon-font-color"></text>
+      </view>
+      <view class="icon_item">
+        <text class="iconfont icon-play-next icon-font-color"></text>
+      </view>
+    </view>
+  </view>

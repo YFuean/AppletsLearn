@@ -11,7 +11,7 @@
     </view>
     <button bindtap="compare">比较</button>
     <view>
-      <text bindchange="change3">比较结果：{{num1 > num2 ? "第一个数大" : (num1 < num2 ? "第二个数大" : "两数相等")}}</text>
+      <text bindchange="change3">比较结果：{{result}}</text>
     </view>
   </view>
   <view>

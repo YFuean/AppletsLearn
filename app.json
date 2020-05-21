@@ -9,7 +9,11 @@
     "pages/myapi/myapi",
     "pages/kfc/kfc",
     "pages/case/case",
-    "pages/calculator/calculator"
+    "pages/calculator/calculator",
+    "pages/musichome/musichome",
+    "pages/info/info",
+    "pages/play/play",
+    "pages/playlist/playlist"
   ],
   "window":{
     "backgroundTextStyle":"light",
