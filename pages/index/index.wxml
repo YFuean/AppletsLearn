@@ -32,7 +32,7 @@
     </view>
     <view class="row">
       <view class="col" bindtap="bindEnter" data-item="countdown">
-        <text class="bin-text">倒计时</text>
+        <text class="bin-text">通讯录</text>
       </view>
       <view class="col" bindtap="bindEnter" data-item="location">
         <text class="bin-text">定位</text>
