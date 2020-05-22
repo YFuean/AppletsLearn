@@ -13,7 +13,10 @@
     "pages/musichome/musichome",
     "pages/info/info",
     "pages/play/play",
-    "pages/playlist/playlist"
+    "pages/playlist/playlist",
+    "pages/countdown/countdown",
+    "pages/location/location",
+    "pages/pic/pic"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -37,9 +40,20 @@
         "text":"指南针",
         "iconPath":"assets/logs.png",
         "selectedIconPath":"assets/logs_active.png"
+      },
+      {
+        "pagePath":"pages/calculator/calculator",
+        "text":"计算器",
+        "iconPath":"assets/logs.png",
+        "selectedIconPath":"assets/logs_active.png"
       }
     ]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
 }

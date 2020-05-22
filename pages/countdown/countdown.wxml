@@ -1,0 +1,10 @@
+<view class='pay-time'>
+    <view class='time-title'>剩余支付时间:</view>
+    <view class='time-content'>
+         <text class='time-number'>{{remainTimeHours}}</text>
+         <text class='time-symbol'>:</text>
+         <text class='time-number'>{{remainTimeMinutes}}</text>
+         <text class='time-symbol'>:</text>
+         <text class='time-number'>{{remainTimeSeconds}}</text>
+    </view>
+</view>

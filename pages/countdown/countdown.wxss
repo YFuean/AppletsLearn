@@ -1,0 +1,35 @@
+.pay-time {
+  display: flex;
+  align-items: center
+}
+.time-title {
+  font-size: 24rpx;
+  color: #353535;
+}
+  
+.time-content {
+  margin-left: 13rpx;
+  display: flex;
+  align-items: center;
+}
+  
+.time-number {
+  border-radius: 10rpx;
+  background-color: #5dbdff;
+  color: #ffffff;
+  font-size: 36rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  min-width: 48rpx;
+  padding: 5rpx;
+  text-align: center;
+}
+  
+.time-symbol {
+  font-size: 36rpx;
+  color: #353535;
+  text-align: center;
+  width: 24rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+}

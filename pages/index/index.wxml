@@ -15,8 +15,8 @@
       <view class="col" bindtap="bindEnter" data-item="food">
         <text class="bin-text">甜品</text>
       </view>
-      <view class="col" bindtap="bindEnter" data-item="calculator">
-        <text class="bin-text">计算器</text>
+      <view class="col" bindtap="bindEnter" data-item="musichome">
+        <text class="bin-text">音乐</text>
       </view>
     </view>
     <view class="row">
@@ -31,8 +31,14 @@
       </view>
     </view>
     <view class="row">
-      <view class="col" bindtap="bindEnter" data-item="musichome">
-        <text class="bin-text">音乐</text>
+      <view class="col" bindtap="bindEnter" data-item="countdown">
+        <text class="bin-text">倒计时</text>
+      </view>
+      <view class="col" bindtap="bindEnter" data-item="location">
+        <text class="bin-text">定位</text>
+      </view>
+      <view class="col" bindtap="bindEnter" data-item="pic">
+        <text class="bin-text">懒加载</text>
       </view>
     </view>
   </view>
